@@ -1,0 +1,10 @@
+package com.jfb.crudclient.repositories;
+
+import com.jfb.crudclient.entities.Client;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ClientRepository extends JpaRepository<Client, Long> {
+}
